@@ -1,0 +1,40 @@
+{
+  "name": "secondchance",
+  "version": "1.0.0",
+  "description": "SecondChance is a pet adoption and tracker platform connecting pets with their forever homes. It allows users to browse and adopt pets, while offering a tracking feature for pets in new homes. Built with React, Node.js, Express, and MongoDB, it's a heartwarming solution for pet adoption.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "pet",
+    "adoption",
+    "tracker",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "pet adoption",
+    "pet tracker",
+    "adopt a dog",
+    "adopt a cat",
+    "adopt a pet",
+    "pet adoption platform",
+    "pet tracker platform"
+  ],
+  "author": "Abhinav Mishra",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
